@@ -1,0 +1,16 @@
+#explan {
+  margin: auto;
+  width: 1000px;
+  margin-top: 30px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #ececec;
+}
+
+#explan h2 {
+  margin-top: 10px;
+}
+
+#explan h4 {
+  margin-top: 10px;
+}

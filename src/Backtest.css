@@ -1,0 +1,33 @@
+form {
+  margin-top: 20px;
+  border: 6px solid black;
+  border-radius: 10px;
+  width: 1000px;
+  margin: auto;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  margin-top: 29px;
+  margin-left: 20px;
+}
+
+.not100 {
+  margin-left: 30%;
+  color: red;
+}
+
+button {
+  margin-left: 30%;
+  width: 400px;
+  height: 70px;
+  background-color: aqua;
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Backtest {
+  background-color: azure;
+}

@@ -1,0 +1,93 @@
+.Main {
+  width: 100%;
+  height: 300px;
+  /* background-color: rgb(120, 80, 214); */
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+#contents {
+  width: 600px; /* 너비 */
+  height: 300px; /* 높이 */
+
+  border: #222;
+  /* background-color: #b00; */
+}
+
+.personelaccount {
+  width: 700px;
+  height: 300px;
+  background-color: antiquewhite;
+}
+
+/* 탭 메뉴 */
+#tabMenu {
+  float: left; /* 왼쪽으로 플로팅 */
+  width: 600px; /* 너비 */
+  height: 100%; /* 높이 */
+  margin-top: 10px; /* 탭 메뉴 위쪽에 여백 두기 */
+  border: #222;
+}
+#tabMenu input[type="radio"] {
+  display: none; /* 라디오 버튼 감춤 */
+}
+#tabMenu label {
+  /* 탭 제목 스타일 */
+  display: inline-block; /* 탭들을 가로로 배치 */
+  margin: 0 0; /* 마진 */
+  padding: 15px 25px; /* 패딩 */
+  font-weight: 600; /* 글자 굵기 */
+  text-align: center; /* 글자 정렬 */
+  color: #aaa; /* 글자 색 */
+  border: 1px solid transparent; /* 테두리 */
+}
+#tabMenu label:hover {
+  /* 마우스 오버했을 때 탭 제목 스타일 */
+  color: #222;
+  cursor: pointer;
+}
+#tabMenu input:checked + label {
+  /* 활성화된 탭 제목 스타일 */
+  color: #b00;
+  border: 1px solid #ddd;
+  background-color: #eee;
+}
+
+.tabContent {
+  /* 탭 내용 스타일 */
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+.tabContent h2 {
+  display: none;
+}
+
+#notice ul {
+  list-style: disc;
+  margin-left: 30px;
+}
+#notice ul li {
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+#notice1 ul {
+  list-style: disc;
+  margin-left: 30px;
+}
+#notice1 ul li {
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+#tab1:checked ~ #notice,
+#tab2:checked ~ #notice1 {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
